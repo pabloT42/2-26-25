@@ -1,0 +1,15 @@
+#Pablo & kenny
+
+
+#function definition
+def isPrime(num):
+    prime = True #
+    for i in range(2, num):
+        if num % i == 0:
+            prime = False
+    return prime
+    
+ 
+
+result = isPrime(20) #funtion call
+print("can this number prime?:", result)
