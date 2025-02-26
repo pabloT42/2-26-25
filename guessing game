@@ -1,0 +1,21 @@
+#pablo & kenny
+import random
+isright = False
+#get a number between 1-100
+num = random.randrange(0,100)
+print (num)
+while isright == False:
+    guess = int(input("guess a number 1-100"))
+    if num < guess:
+        print ("too high try again")
+    elif num > guess:
+        print ("too low try again")
+    else:
+        print ("you got it!")
+        isright = True
+#set up a loop that runs until the user guess correctly
+
+#ask the user for their guess
+#if the guess is too smll, print that
+#if the guess is too big, print that
+#if it's equal, quit the loop
